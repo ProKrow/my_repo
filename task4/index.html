@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7Stars</title>
+
+    <style>
+        * {
+            font-size: 11px;
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+          padding: 0px;
+          margin: 0px;
+
+        }
+
+        header {
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+            background-color: rgb(65, 145, 230);
+        }
+
+        main {
+            background-color: rgb(235, 239, 249);
+            margin-left: 5rem;
+            padding: 1rem;
+        }
+        
+        .sidbar {
+            width: 5rem;
+            height: 100vh;
+            position:fixed;
+        }
+
+        .first-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(13, 225, 179);
+        }
+        .links {
+            margin: 10px 25px;
+            display: inline-block;
+        }
+
+        .serchbar {
+            margin: 10px 25px;
+            background-color: rgb(225, 229, 233);
+            border: none;
+            border-radius: 5px;
+
+        }
+
+        li, a {
+            display: inline-block;
+            margin-left: 10px;
+            text-decoration: none;
+            color:rgb(15, 14, 14)
+        }
+
+        .logo {
+            display: inline-block;
+            color:rgb(240, 240, 9);
+            margin: 10px 25px;
+        }
+       
+        .navigation {
+            margin-left: 5px;           
+        }
+
+        footer {
+            background-color: aqua;
+            height: 40px;
+            padding: 10px 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="first-row">
+            <h2 class="logo">LOGO</h2>
+            <ul class="links">
+                <li><a href="#">sign in</a></li>
+                <li><a href="#">sign up</a></li>
+            </ul>
+            <li><input type="text" placeholder="   Serch" class="serchbar"></li>
+        </div>
+
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <nav class="sidbar">
+       <p>sidbar</p>
+    </nav>
+
+    <main>
+        <section>
+            <h4>first article</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic delectus qui assumenda dignissimos corporis at voluptatem ut pariatur cumque architecto enim rerum ad quidem, itaque harum. Esse soluta, enim repudiandae blanditiis culpa, ipsa sit doloremque, beatae tenetur accusantium dolores voluptates.</p>
+        </section>
+        <hr>
+        <section class="section2">
+            <h4>second article</h4>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore inventore totam rerum dicta quidem quasi ipsum impedit atque, modi, exercitationem eligendi numquam veritatis dolore ad perspiciatis doloremque vero. Mollitia doloremque, voluptate natus provident reprehenderit modi laudantium. Vel, laboriosam mollitia qui quibusdam eius veritatis ipsum ad dolore atque voluptas non obcaecati, fugiat magnam unde illo ex nostrum quas est? Suscipit laborum debitis quam magnam cumque a nostrum facere voluptatibus, id consequatur?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam natus pariatur nihil cupiditate officia quo necessitatibus veniam. Quae non, praesentium, assumenda cumque maxime itaque optio minima dignissimos, quasi aspernatur explicabo. Natus, adipisci veritatis accusamus, enim nihil excepturi quidem culpa assumenda rerum vero ea at ullam cum facilis. Dignissimos, suscipit illum.
+            </p>
+        </section>
+        <hr>
+        <section class="section3"> 
+            <h4>second article</h4>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id nam beatae consequuntur cumque temporibus? Alias voluptatum explicabo neque sint eos possimus omnis ea aut tenetur, nulla error aliquam dolor beatae vel quae commodi voluptatem, totam sed iste autem itaque suscipit distinctio? Molestias, odit. Labore voluptates numquam modi veritatis fugiat quisquam?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore inventore totam rerum dicta quidem quasi ipsum impedit atque, modi, exercitationem eligendi numquam veritatis dolore ad perspiciatis doloremque vero. Mollitia doloremque, voluptate natus provident reprehenderit modi laudantium. Vel, laboriosam mollitia qui quibusdam eius veritatis ipsum ad dolore atque voluptas non obcaecati, fugiat magnam unde illo ex nostrum quas est? Suscipit laborum debitis quam magnam cumque a nostrum facere voluptatibus, id consequatur?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam ullam placeat nostrum, pariatur dolorem modi quidem sequi reiciendis excepturi iure voluptatibus tenetur, doloribus ut tempore voluptates consequatur blanditiis ipsam eligendi expedita id accusamus! Vel, veritatis molestiae. Consequuntur, quibusdam laborum?
+            </p>
+        </section>
+        <hr>
+        <section calss>
+            <h4>forth article</h4>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur fugit eligendi exercitationem quisquam dolore voluptatibus eaque. Voluptate harum corporis a numquam voluptates corrupti illo dolor totam voluptatibus nam! Sint, perspiciatis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic delectus qui assumenda dignissimos corporis at voluptatem ut pariatur cumque architecto enim rerum ad quidem, itaque harum. Esse soluta, enim repudiandae blanditiis culpa, ipsa sit doloremque, beatae tenetur accusantium dolores voluptates.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>copyright 2022&#169;</p>
+    </footer>
+
+
+</body>
+</html>
